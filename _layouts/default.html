@@ -36,13 +36,13 @@
       </header>
       <section>
 
-      {{ content }}
+        <div align = "left>{{ content }}</div>
         
-      {% if site.github.is_user_page %}
-      <p align = "left"><a href="{{ site.github.owner_url }}">Projects</a></p>
-      <p align = "left"><a href="https://drive.google.com/open?id=1YbJNTq71TABcmdUvh9EjUhgyTsBfqMS7">Resume</a></p>
-      <p align = "left"><a href="https://www.instagram.com/coffee.duo/">Coffee</a></p>
-      {% endif %}
+        {% if site.github.is_user_page %}
+        <p><a href="{{ site.github.owner_url }}">Projects</a></p>
+        <p><a href="https://drive.google.com/open?id=1YbJNTq71TABcmdUvh9EjUhgyTsBfqMS7">Resume</a></p>
+        <p><a href="https://www.instagram.com/coffee.duo/">Coffee</a></p>
+        {% endif %}
       </section>
       <footer>
         {% if site.github.is_project_page %}
