@@ -17,10 +17,8 @@
       <header>
         
         {% if site.github.is_user_page %}
-          <p><a href="/PourVisualization">Pourover Visualization</a></p>
-          <p><a href="{{ site.github.owner_url }}">Projects</a></p>
-          <p><a href="https://drive.google.com/open?id=1YbJNTq71TABcmdUvh9EjUhgyTsBfqMS7">Resume</a></p>
-          <p><a href="https://www.instagram.com/coffee.duo/">Coffee</a></p>
+          {{ content }}
+
         {% endif %}
         
         {% if site.logo %}
@@ -42,7 +40,10 @@
         {% endif %}
       </header>
       <section>
-        {{ content }}
+          <p><a href="/PourVisualization">Pourover Visualization</a></p>
+          <p><a href="{{ site.github.owner_url }}">Projects</a></p>
+          <p><a href="https://drive.google.com/open?id=1YbJNTq71TABcmdUvh9EjUhgyTsBfqMS7">Resume</a></p>
+          <p><a href="https://www.instagram.com/coffee.duo/">Coffee</a></p>
       </section>
       <footer>
         {% if site.github.is_project_page %}
