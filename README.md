@@ -1,2 +1,2 @@
 # Daniel Chow
-Hi! I am currently an Engineer in Amgen's Digital Manufacturing team.
+Hi! I am currently an Engineer on Amgen's Digital Manufacturing team.
